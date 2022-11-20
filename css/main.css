@@ -7,9 +7,9 @@ html {
     color : #ffffff;
     }
     body {
-    padding : 0 2%;
     margin : 0;
     font-family : 'Noto Sans JP', sans-serif;
+    font : 1.6rem sans-serif;
     }
     nav {
     display : flex;
@@ -18,21 +18,17 @@ html {
     text-align : center;
     position : sticky;
     top : 0;
-    line-height : 3rem;
     color : rgb(0, 0, 0);
-    padding : 2rem;
     background-color : rgb(255, 255, 255);
-    z-index : 1;
-    background-color : rgb(74, 57, 128);
-    margin-bottom : 2%;
+    background-color : rgb(159, 140, 207);
+    margin: 2%;
     font-size : 14px;
     font-weight : bolder;
-    border-radius : 2%;
+    padding: 0 2%;
     }
     nav.profile {
     display : inline-block;
     text-align : center;
-    margin-left : 10px;
     font-size : 15px;
     }
     nav.profile img {
@@ -105,7 +101,7 @@ html {
     }
     @media screen and (max-width: 700px) {
     nav {
-    justify-content : center;
+    justify-content : center; 
     }
     .page header {
     margin-top : 10%;
@@ -113,17 +109,28 @@ html {
     }
     nav {
     display : none;
-    }
+    }      
     }
     img {
     display : inline-block;
-    height : 60%;
-    width : 70rem;
+    height : 50%;
+    width : 60rem;
     margin : 1rem;
     margin-bottom : auto;
     padding-top : 4rem;
     border-radius : 1rem;
     padding-left : 35rem;
+    text-align: center;
+    }
+
+    main section p{
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(79, 124, 190, 0.4);       
+    width: 100%;
+    
     }
     .project h3 {
     font-size : 5rem;
@@ -156,6 +163,7 @@ html {
     padding-top : 4rem;
     border-radius : 1rem;
     padding-left : 35rem;
+    text-align: center;
     }
     footer {
     text-align : center;
