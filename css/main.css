@@ -199,14 +199,30 @@ ul h4{
 /*responsive*/
 
 @media only screen and (max-width: 800px) {
-  /* styles spécifiques pour les écrans de taille inférieure à 800px */
-  /* exemple : */
-  /* rendre les tailles de police plus petites pour les petits écrans */
   body {
-    font-size: 14px;
+    font-size: 15px;
   }
-  /* rendre la largeur de la barre de navigation pour les petits écrans */
+
+ .about h1 {
+    font-size: 25px;
+
+  }
   .categories {
-    width: 50%;
+    width: 25%;
+    position: fixed;
+  }
+
+  .about   {
+     transform: translate(184px);
+  }
+
+  .about p {
+    font-size: 14px;
+    display: block;
+
+  }
+
+  .interests {
+    padding-top: 15rem;
   }
 }
