@@ -148,12 +148,12 @@ h3{
     width: 40%;
 
 }
-.exp3{
-    color: rgb(0, 0, 0);
-    transform: translateX(830px);
+.exp2{
+    color: rgb(12, 24, 190);
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: initial;  
+
 }
 .pat{
     color:rgb(0, 0, 0);
