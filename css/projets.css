@@ -1,0 +1,38 @@
+/* Définir les styles de base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+  }
+  
+  .project li {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .projet h3 {
+      margin-bottom: 5rem;
+  }
+  

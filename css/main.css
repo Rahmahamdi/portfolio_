@@ -1,0 +1,263 @@
+
+
+
+
+html{
+    font-size: 62.5%;
+    letter-spacing: .1rem;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    line-height: 1.6rem;
+
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    color: #222;
+}
+.categories{
+    height: 100%;
+    width: 20%;
+    background-color:rgb(7, 8, 68);
+    text-align: center;
+    padding-top: 10%;
+    position: fixed;
+}
+.categories img{
+    width: 55%;
+    border-radius: 50%;
+    border: 8px solid rgb(202,125,96);
+}
+a{  display: block;
+    color:rgb(250, 247, 245);
+    text-decoration: none;
+    padding: 5%;
+    font-weight: bold;
+}
+span{
+    color:rgb(189,93,56) ;  
+}
+.about span a{
+    color:rgb(195, 98, 59)
+}
+
+h1{
+    color: rgb(52, 58, 64);
+    text-transform: uppercase; 
+    height: 130px;
+
+   
+    
+}
+
+.pabout2{
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    font-size: x-large;
+}
+.about{
+    width: 75%;
+    height:525px;
+    transform: translateX(30%);
+    padding-top: 10%;
+    font-size: larger;
+    position: relative;
+
+}
+ .icone a {
+    display: inline-block;
+}
+.icone {   
+    padding-top: 4rem;
+height: 10%;
+width: 100%;
+}
+.icone1 {
+    border-radius: 50%;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+   background: rgb(52, 58, 64);
+    color: white;
+    margin-right: 25px;
+}
+.icone1:hover{
+    background:rgb(189,93,56) ;
+}
+.experience{
+    width: 75%;
+    height: 600px;
+   padding-top: 3rem;
+    text-decoration:#222;
+}
+.experience img {
+    width: 6%;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 5rem;
+}
+h3{
+    color: #193b5e;
+    font-weight: 800;
+    border-spacing: 15px
+}
+.exp{
+    color: rgb(6, 11, 147);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: initial;
+}
+.exp2 {
+    color: rgb(12, 24, 190);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: initial;  
+
+}
+.exp3 {
+    color: rgb(12, 24, 190);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: initial;  
+
+}
+
+.experience img {
+    width: 10%;
+}
+
+.experience .in {
+    color: #000000;
+    line-height: 1.5;
+}
+.formation{
+    width: 30%;
+   padding-bottom: 95px;
+   margin-left: 40rem;
+
+
+    
+}
+
+.skills h2 , h3 , p {
+    width: 80rem;
+}
+
+.formation img{
+    width: 40%;
+    margin-left: 20rem;
+    text-align: center;
+}
+.exp2{
+    color: rgb(12, 24, 190);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: initial;  
+
+}
+.pat{
+    color:rgb(0, 0, 0);
+    font-weight: initial;  
+    line-height: 1.5;
+} 
+.skills{
+    width: 20%;
+    height: 525px;
+        line-height: 1.2;
+       
+      
+        
+    }
+.skills img{
+    color:rgb(0, 0, 0);
+    width: 40%;
+}
+
+
+
+
+ul{
+    color:rgb(0, 0, 0);
+}
+ul h4{
+    color: #00050b;
+}
+ .interests{
+  padding-left: 500px;
+
+}
+.veille {
+    padding-left: 500px;
+    color: #000000;
+
+
+}
+ .veille p  {
+    line-height: 1.5rem;
+    display: block;
+}
+
+.interests p {
+    color: #000000;
+    line-height: 1.5;
+}
+
+.interests img {
+     width:35%;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 15px;
+  }
+
+ .about h1 {
+    font-size: 25px;
+
+  }
+  .categories {
+    width: 25%;
+    position: fixed;
+  }
+
+  .about   {
+     transform: translate(140px);
+  }
+
+  .about p {
+    font-size: 14px;
+    display: block;
+
+  }
+
+  .interests {
+    padding-top: 15rem;
+  }
+  .veille  h2,h3,p{
+transform: translateX(170px);
+text-align: center;
+  }
+  .veille p {
+      color: #000000;
+  }
+}
+
